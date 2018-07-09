@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Chela+one, Gaegu;
+	color: white;
+	
+}
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-position: center;
+	font-family: Gaegu;
+	background-color: black;
+
+}
+
+.heading {
+	margin-top: 25%;
+	margin-bottom: 24%;
+	text-align: center;
+	text-indent: 5px;
+	font-size: 30px;
+}
+
+
+.nav{
+	padding-top: 10px;
+	text-align: center;
+	color: yellow;
+	font-size: 25px;
+}
+
+.socmed {
+	float: right;
+	opacity: 50%;
+}
+
+img[alt*="social"] {
+	border:2px solid black;
+	width: 30px;
+	height: 30px;
+	display: block;	
+	float: left;
+	margin-right: 15px;
+
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+.text {
+	text-align: center;
+}
