@@ -19,41 +19,80 @@ body {
 
 }
 
-.heading {
-	margin-top: 25%;
-	margin-bottom: 24%;
-	text-align: center;
-	text-indent: 5px;
+.heading-box {
+	margin-bottom: 13%;
+	margin-left: 50%;
+	transform: translate(-50%,0%);
+	text-align: center;	
+	text-indent: 10px;
 	font-size: 30px;
+	width: 70%;
+	float: left;
 }
 
+header {
+	background-color: grey;
+}
 
+nav > ul {
+	position: relative;
+	top: 0px;
+	color:black;
+	
+}
+nav > ul > li {
+	display: inline-block;
+	list-style: none;
+}
 .nav{
-	padding-top: 10px;
+	padding-top: 5px;
+	font-size: 1.2em;
 	text-align: center;
-	color: yellow;
-	font-size: 25px;
+	color: white;
 }
 
 .socmed {
-	float: right;
-	opacity: 50%;
+	float: right;	
+	background-color: grey;
+	padding-left: 50px;
+	padding-right: 35px;
 }
 
+
 img[alt*="social"] {
-	border:2px solid black;
+	border:1px solid red;
 	width: 30px;
 	height: 30px;
 	display: block;	
-	float: left;
+	float: right;
 	margin-right: 15px;
-
+	padding: 3px;
 }
 
-.footer {
-	margin-top: 20px;
+img[alt*="social"]:hover{
+	background-color: whites;
+}
+
+footer {
+	float: left;
+	width: 100%;
 }
 
 .text {
 	text-align: center;
+}
+
+fieldset {
+	width: 230px;
+	border: 2px dashed red;
+	box-sizing: auto;
+	margin:0px 500px 180px 500px;
+	text-align: center;
+	
+}
+
+.submit {
+	float: right;
+	background-color: grey;
+	color: black;
 }
